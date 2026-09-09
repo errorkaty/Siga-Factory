@@ -15,6 +15,6 @@ Na Simple Factory a criação de painéis estava centralizada na "FabricaPainel"
 A classe "GerenciadorLogin" agora recebe um objeto do tipo "CriadorPainel" e utiliza "criarPainel()" sem conhecer a classe concreta. A escolha do painel passa a ser por polimorfismo.
 
 ## 4. Adicionar um novo perfil:
-
+Agora com o Factory Method implementado foi possível adiconar o novo perfil de Secretaria por meio de duas classes novas: "CriadorPainelSecretaria" que herda de "CriadorPainel" e "PainelSecretaria" que implementa "Painel". Sem modificar nada já existente, apenas o "Main" para que ele mostra-se o novo painel.
 
 ## 5. Desenhar o diagrama de classes da solução final:
