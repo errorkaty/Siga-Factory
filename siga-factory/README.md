@@ -11,7 +11,10 @@ Agora com o uso do Simple Factory, dividimos as responsabilidades em duas classe
 Dessa forma, a criação fica centralizada na fábrica e o "GerenciadorLogin" para de depender diretamente das classes concretas de painel.
 
 ## 3. Factory Method:
+Na Simple Factory a criação de painéis estava centralizada na "FabricaPainel", agora com a Factory Method aplicada, foi criada a classe abstrata "CriadorPainel" que delcara o método "criarPainel()", assim, as subclasses (que herdam dela) "CriadorPainelAluno", "CriadorPainelProfessor" e "CriadorPainelCoordenador" sobrescrevem o método e cada uma fica responsável pela criação de seu painel.
+A classe "GerenciadorLogin" agora recebe um objeto do tipo "CriadorPainel" e utiliza "criarPainel()" sem conhecer a classe concreta. A escolha do painel passa a ser por polimorfismo.
 
 ## 4. Adicionar um novo perfil:
+
 
 ## 5. Desenhar o diagrama de classes da solução final:
