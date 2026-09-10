@@ -18,3 +18,4 @@ A classe "GerenciadorLogin" agora recebe um objeto do tipo "CriadorPainel" e uti
 Agora com o Factory Method implementado foi possível adiconar o novo perfil de Secretaria por meio de duas classes novas: "CriadorPainelSecretaria" que herda de "CriadorPainel" e "PainelSecretaria" que implementa "Painel". Sem modificar nada já existente, apenas o "Main" para que ele mostra-se o novo painel.
 
 ## 5. Desenhar o diagrama de classes da solução final:
+Conforme as instruções do professor pedem, o diagrama nomeado de "Diagrama-classes" está na pasta "docs"
